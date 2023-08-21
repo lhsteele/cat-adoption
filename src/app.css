@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #904C77;
+    border-bottom: 1px solid black;
+    align-items: center;
+    position: relative;
+}
+
+.header .route-options {
+    position: absolute;
+    top: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin: 0 10px;
+    height: fit-content;
+}
+
+.cat-details img {
+    width: 50%;
+}
